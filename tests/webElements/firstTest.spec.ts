@@ -13,7 +13,7 @@ test.beforeEach(async ({page}) => {
 // test.afterEach()
 // test.afterAll()
 
-test.describe.only('suite1', async() => {
+test.describe('suite1', async() => {
    test.beforeEach(async ({page}) => {
       await page.locator('[title="Charts"]').click()
     })
